@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset stylesheet
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------
+---------------------------------------------------------*/
+* {
+	/* background-color: red; */
+}
+
+#header-img {
+  /* height: 300px; */
+  width: 80%;
+  margin: auto;
+	padding-top: 10%;
+  /* position: absolute; */
+  /* background-repeat: no-repeat; */
+}
+
+#logo {
+	width: 100%;
+	/* height: inherit; */
+}
+
+#header nav {
+	text-align: center;
+	/* border: 5px solid black; */
+	padding: 3% 0;
+}
+
+#header nav ul {
+	display: inline-block;
+	/* padding: 20%; */
+	/* border: 5px solid green; */
+	width: 80%;
+	/* text-decoration: none; */
+	/* text-align: center; */
+}
+
+#header nav ul li {
+	border: 5px solid black;
+	margin: 5% auto;
+	width: 70%;
+	padding: 5px 0;
+	font-size: 10vw;
+	font-weight: bold;
+	/* color: black; */
+	/* text-decoration: none; */
+	/* display: inline-block; */
+}
+
+#header nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#main-text {
+	font-size: 5vw;
+	width: 90%;
+	margin: auto;
+}
+
+#main-img {
+	width: 90%;
+	margin: auto;
+}
+
+#main-img img {
+	width: 100%;
+	margin: 5% 0;
+	/* border: 5px dotted black; */
+}
+
+#footer {
+	background-color: green;
+}
+
+#sponsors h1 {
+	text-align: center;
+	padding-top: 2%;
+	font-size: 7vw;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#sponsors ul {
+	text-align: center;
+}
+
+#sponsors ul li{
+	/* background-color: black; */
+	border: 5px solid black;
+	margin: 5%;
+	height: 50px;
+	width: 35%;
+	padding: 3px;
+	display: inline-block;
+}
+
+#about-text {
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+#about-text h1 {
+	font-size: 13vw;
+	font-weight: bold;
+	padding: 5% 0;
+}
+
+#about-text h2 {
+	font-size: 8vw;
+	padding-bottom: 4%;
+}
+
+#about-text h3 {
+	font-size: 4.5vw;
+	padding-bottom: 4%;
+}
+
+#about-text p {
+	font-size: 6vw;
+	padding: 2% 0 4% 0;
+}
+
+#about-text ul {
+	padding-bottom: 4%;
+}
+
+#about-text ul li {
+	font-size: 4.5vw;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: .5%;
+}
+
+#about-img {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 10px;
+	/* border: 5px dotted black; */
+}
+
+#about-img img {
+	width: 100%;
+}
+
+#schedule {
+	width: 85%;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+/* #schedule tab */
+
+#scedule table, th, td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px;
+	font-size: 4vw;
+}
+
+#key {
+	/* width: 90%;
+	margin: auto; */
+	text-align: center;
+	padding: 10px;
+}
+
+#key ul li {
+	padding: 3px 0;
+	font-size: 5vw;
+}
+
+#games {
+	padding: 0 10% 10% 10%;
+}
+
+#games ul li {
+	padding: 5%;
+	font-size: 7vw;
+}
+
+#games ul p {
+	font-size: 5vw;
+}
+
+#mapouter {
+	width: 80%;
+	/* position: relative; */
+	/* text-align: right; */
+	margin: auto;
+	/* height: 500px;
+	width: 600px; */
+}
+
+#gmap_canvas {
+	overflow: hidden;
+	background: none!important;
+	margin: auto;
+	width: 100%;
+	/* height: 500px;
+	width: 600px; */
+}
+
+#gmap_canvas iframe {
+	width: 100%;
+	height: 450px;
+}
+
+#contacts {
+	font-size: 4vw;
+	padding: 5% 5%;
+}
+
+#contacts p {
+	text-decoration: underline;
+	padding: 4% 0;
+}
+
+#contacts ul li {
+	padding: 2% 0;
+}
+
+#gallery {
+	width: 100%;
+	padding: 5% 0;
+	text-align: center;
+}
+
+.gallery-img {
+	width: 35%;
+	height: 30vw;
+	padding: 2%;
+}
